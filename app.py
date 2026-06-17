@@ -169,7 +169,7 @@ if menu == "Dashboard":
     with col1:
         with st.container(border=True):
             st.subheader("Topic Explainer")
-            st.write("Explains any topic by learning level. It also has levels to make it easier.")
+            st.write("Explains any topic by learning level to make it easier.")
 
     with col2:
         with st.container(border=True):
