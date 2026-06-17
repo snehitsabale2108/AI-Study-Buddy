@@ -167,11 +167,19 @@ if menu == "Dashboard":
     st.subheader("Project Demo Dashboard")
     col1, col2, col3 = st.columns(3)
     with col1:
-        st.markdown('<div class="feature-card"><b>Topic Explainer</b><br>Explains any topic by learning level.</div>', unsafe_allow_html=True)
+        with st.container(border=True):
+            st.subheader("Topic Explainer")
+            st.write("Explains any topic by learning level. It also has levels to make it easier.")
+
     with col2:
-        st.markdown('<div class="feature-card"><b>Notes Summarizer</b><br>Converts long notes into short summaries and key points.</div>', unsafe_allow_html=True)
+        with st.container(border=True):
+            st.subheader("Notes Summarizer")
+            st.write("Converts long notes into short summaries and key points.")
+
     with col3:
-        st.markdown('<div class="feature-card"><b>Practice Tools</b><br>Creates quizzes and flashcards from notes or PDFs.</div>', unsafe_allow_html=True)
+        with st.container(border=True):
+            st.subheader("Practice Tools")
+            st.write("Creates quizzes and flashcards from notes or PDFs.")
 
     st.info("Demo flow: upload or paste study material, generate a summary, create quiz questions, then ask the AI Tutor a doubt.")
 
