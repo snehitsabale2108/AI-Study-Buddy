@@ -73,6 +73,11 @@ The application is built using **Python, Streamlit, NLP techniques, PDF processi
 
 ---
 
+## Application Link
+[AI Study Buddy](https://aistudybuddy-snehitsabale.streamlit.app/)
+
+---
+
 ## Contributing
 
 Contributions are welcome. To get started:
