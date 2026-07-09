@@ -4,7 +4,7 @@ AI Study Buddy is an AI-powered educational assistant that helps students learn 
 
 The application is built using **Python, Streamlit, NLP techniques, PDF processing, and Groq LLM API**.
 
----
+--- 
 
 ## Features
 
